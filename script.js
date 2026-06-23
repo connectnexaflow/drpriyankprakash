@@ -688,3 +688,14 @@ document.getElementById('bk-submit').addEventListener('click', function () {
     window.open('https://wa.me/' + phone + '?text=' + encoded, '_blank');
   });
 })();
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
