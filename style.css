@@ -283,7 +283,7 @@ ul { list-style: none; }
 ═══════════════════════════════ */
 .hero {
   position: relative;
-  padding: calc(var(--nav-h) + 60px) 0 0;
+  padding: calc(var(--nav-h) + 25px) 0 0;
   background: linear-gradient(160deg, #dce8f8 0%, #c5d8f0 50%, #b8cfe8 100%);
   overflow: hidden;
   min-height: 100vh;
@@ -545,6 +545,37 @@ ul { list-style: none; }
   background: #b8d4ec;
   flex-shrink: 0;
 }
+
+/* ═══════════════════════════════
+   SCROLL REVEAL ANIMATIONS
+═══════════════════════════════ */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reveal.from-left   { transform: translateX(-40px); }
+.reveal.from-right  { transform: translateX(40px); }
+.reveal.from-bottom { transform: translateY(36px); }
+.reveal.from-top    { transform: translateY(-36px); }
+
+.reveal.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Stagger delays for grids (children of a .reveal-group) */
+.reveal-group .reveal:nth-child(1) { transition-delay: 0s; }
+.reveal-group .reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal-group .reveal:nth-child(3) { transition-delay: 0.2s; }
+.reveal-group .reveal:nth-child(4) { transition-delay: 0.3s; }
+.reveal-group .reveal:nth-child(5) { transition-delay: 0.4s; }
+.reveal-group .reveal:nth-child(6) { transition-delay: 0.5s; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+
 @media (max-width: 600px) {
   .stats-strip .stats-grid { flex-direction: row; gap: 0; }
   .stats-strip .stat-item { padding: 12px 8px; }
@@ -714,9 +745,10 @@ ul { list-style: none; }
 
 .about-desc {
   color: var(--gray-500);
-  font-size: .95rem;
+  font-size: 1.0rem;
   line-height: 1.75;
   margin-bottom: 28px;
+  font-weight: bold;
 }
 
 .about-features {
@@ -729,9 +761,9 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: .9rem;
+  font-size: .95rem;
   color: var(--gray-700);
-  font-weight: 500;
+  font-weight: 700;
 }
 .feature-check {
   width: 22px; height: 22px;
@@ -1385,7 +1417,7 @@ ul { list-style: none; }
 
 .tooth-bubble {
   position: absolute;
-  top: -20px;
+  top: -1px;
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
