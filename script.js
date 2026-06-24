@@ -298,6 +298,7 @@
       setTimeout(() => { sparkle.style.opacity = '0'; }, 400);
       bubbleText.textContent = 'Hey! You Coming! I am Happy☺️';
     }, 4500);
+    
 
     // Step 5 — hide bubble
     setTimeout(() => {
@@ -698,4 +699,3 @@ document.getElementById('bk-submit').addEventListener('click', function () {
   }, { threshold: 0.12 });
 
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
