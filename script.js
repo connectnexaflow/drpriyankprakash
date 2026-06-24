@@ -4,7 +4,7 @@
 
 (function () {
   'use strict';
-
+ 
   /* ── Navbar: scroll shadow + hamburger ── */
   const navbar    = document.getElementById('navbar');
   const hamburger = document.getElementById('hamburger');
