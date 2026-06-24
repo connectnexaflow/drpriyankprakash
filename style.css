@@ -46,8 +46,8 @@
   --radius-xl: 32px;
   --radius-full: 9999px;
 
-  --ff-display: 'Playfair Display', Georgia, serif;
-  --ff-body: 'Plus Jakarta Sans', sans-serif;
+  --ff-display: 'Cormorant Garamond', Georgia, serif;
+  --ff-body: 'DM Sans', system-ui, sans-serif;
 
   --nav-h: 72px;
   --transition: .25s cubic-bezier(.4, 0, .2, 1);
@@ -290,10 +290,10 @@ ul {
 .section-tag {
   display: inline-block;
   padding: 6px 16px;
-  background: var(--blue-50);
-  color: var(--blue-600);
-  border: 1px solid var(--blue-100);
-  border-radius: var(--radius-full);
+  background: rgba(26,74,58,.08);
+  color: var(--clr-forest);
+  border: 1px solid rgba(26,74,58,.15);
+  border-radius: 9999px;
   font-size: .8rem;
   font-weight: 700;
   letter-spacing: .06em;
