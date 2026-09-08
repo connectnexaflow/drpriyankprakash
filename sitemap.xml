@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/Dr-Priyank-Prakash-Best-dentist-in-lucknow.webp</image:loc>
+      <image:title>Dr. Priyank Prakash - Best Dentist in Lucknow</image:title>
+      <image:caption>Dr. Priyank Prakash, founder of Brite Smile Dental Care, Lucknow</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/logo_main.png</image:loc>
+      <image:title>Brite Smile Dental Care Logo</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/about</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/services</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/treatment-room.webp</image:loc>
+      <image:title>Dental Treatment Room - Brite Smile Dental Care</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/blog</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

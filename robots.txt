@@ -1,0 +1,88 @@
+# robots.txt for britesmiledentalcare2002.co.in
+# Brite Smile Dental Care — Dr. Priyank Prakash, Lucknow
+
+# ------------------------------------------------------------------
+# Default rule: allow all standard search engine crawlers full access
+# ------------------------------------------------------------------
+User-agent: *
+Allow: /
+
+# ------------------------------------------------------------------
+# AI assistants & LLM crawlers — explicitly allowed for AI visibility
+# (so tools like ChatGPT, Claude, Perplexity, Gemini, etc. can read,
+# cite and recommend this clinic)
+# ------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# ------------------------------------------------------------------
+# Sitemap & structured-data discovery
+# ------------------------------------------------------------------
+Sitemap: https://britesmiledentalcare2002.co.in/sitemap.xml
+
+# LLMs.txt is not an official robots.txt directive, but many AI
+# crawlers now check for it here as a convention.
+# https://britesmiledentalcare2002.co.in/llms.txt
