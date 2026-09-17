@@ -19,14 +19,14 @@
   </url>
 
   <url>
-    <loc>https://britesmiledentalcare2002.co.in/about</loc>
+    <loc>https://britesmiledentalcare2002.co.in/about.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://britesmiledentalcare2002.co.in/services</loc>
+    <loc>https://britesmiledentalcare2002.co.in/services.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -38,9 +38,45 @@
 
   <url>
     <loc>https://britesmiledentalcare2002.co.in/blog</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/blog/painless-wisdom-tooth-removal-lucknow</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/blog/images/painless-wisdom-tooth-removal-lucknow-cover.jpg</image:loc>
+      <image:title>Painless Wisdom Tooth Removal in Lucknow</image:title>
+      <image:caption>Painless wisdom tooth removal treatment at Brite Smile Dental Care, Charbagh, Lucknow</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/blog/root-canal-cost-in-lucknow</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/blog/images/root-canal-cost-in-lucknow-cover.jpg</image:loc>
+      <image:title>Root Canal Cost in Lucknow</image:title>
+      <image:caption>Root canal treatment cost guide at Brite Smile Dental Care, Charbagh, Lucknow</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://britesmiledentalcare2002.co.in/blog/what-is-best-age-for-braces</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://britesmiledentalcare2002.co.in/blog/images/what-is-best-age-for-braces-cover.webp</image:loc>
+      <image:title>What Is the Best Age for Braces</image:title>
+      <image:caption>Best age for braces guide for children and teens at Brite Smile Dental Care, Charbagh, Lucknow</image:caption>
+    </image:image>
   </url>
 
 </urlset>
